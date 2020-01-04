@@ -1,6 +1,6 @@
 ﻿using Ninject.Modules;
-using TestableCode.Example;
 using TestableCode.Common;
+using TestableCode.Example;
 
 namespace TestableCode.Ninject
 {

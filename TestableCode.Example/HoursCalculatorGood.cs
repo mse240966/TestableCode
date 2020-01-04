@@ -14,6 +14,7 @@ namespace TestableCode.Example
 
         public DateTime AddHoursToCurrentTime(int hours)
         {
+            // This is good it can be tested
             return _dateTimeHelper.UtcNow().AddHours(hours);
         }
     }

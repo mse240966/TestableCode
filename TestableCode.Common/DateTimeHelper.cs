@@ -8,5 +8,10 @@ namespace TestableCode.Common
         {
             return DateTime.UtcNow;
         }
+
+        public DateTime Now()
+        {
+            return DateTime.Now;
+        }
     }
 }

@@ -1,5 +1,5 @@
-﻿using System.Reflection;
-using Ninject;
+﻿using Ninject;
+using System.Reflection;
 using TestableCode.Example;
 
 namespace TestableCode.Ninject

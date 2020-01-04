@@ -6,14 +6,14 @@ namespace TestableCode
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             var ninjectContainer = new NinjectContainer();
             ninjectContainer.Initialise();
 
             IHoursCalculator hoursCalculator = ninjectContainer.GetHoursCalculator();
 
-            Console.WriteLine(hoursCalculator.AddHoursToCurrentTime(1).ToLocalTime());
+            Console.WriteLine(hoursCalculator.AddHoursToCurrentTime(0).ToLocalTime());
             Console.ReadLine();
         }
     }
