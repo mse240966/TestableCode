@@ -1,5 +1,6 @@
 ﻿using System;
 using TestableCode.Example;
+using TestableCode.Ninject;
 
 namespace TestableCode
 {
@@ -7,7 +8,10 @@ namespace TestableCode
     {
         public static void Main(string[] args)
         {
-            IHoursCalculator hoursCalculator = new HoursCalculatorBad();
+            var ninjectContainer = new NinjectContainer();
+            ninjectContainer.Initialise();
+
+            IHoursCalculator hoursCalculator = ninjectContainer.GetHoursCalculator();
 
             Console.WriteLine(hoursCalculator.AddHoursToCurrentLocalTime(1));
             Console.ReadLine();

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableCode", "TestableCod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableCode.Example", "TestableCode.Example\TestableCode.Example.csproj", "{2F803965-EA6A-4169-ABF5-E380845356DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableCode.Ninject", "TestableCode.Ninject\TestableCode.Ninject.csproj", "{C74C67C4-C22D-45EC-98F1-EFBADB40B37E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableCode.Common", "TestableCode.Common\TestableCode.Common.csproj", "{79485F36-4F1A-466B-ADC7-275D6D61BFF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2F803965-EA6A-4169-ABF5-E380845356DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F803965-EA6A-4169-ABF5-E380845356DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F803965-EA6A-4169-ABF5-E380845356DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74C67C4-C22D-45EC-98F1-EFBADB40B37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74C67C4-C22D-45EC-98F1-EFBADB40B37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74C67C4-C22D-45EC-98F1-EFBADB40B37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74C67C4-C22D-45EC-98F1-EFBADB40B37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79485F36-4F1A-466B-ADC7-275D6D61BFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79485F36-4F1A-466B-ADC7-275D6D61BFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79485F36-4F1A-466B-ADC7-275D6D61BFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79485F36-4F1A-466B-ADC7-275D6D61BFF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

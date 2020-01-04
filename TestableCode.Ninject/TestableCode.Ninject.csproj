@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TestableCode.Common\TestableCode.Common.csproj" />
+    <ProjectReference Include="..\TestableCode.Example\TestableCode.Example.csproj" />
   </ItemGroup>
 
 </Project>
