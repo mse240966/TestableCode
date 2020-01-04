@@ -13,7 +13,7 @@ namespace TestableCode
 
             IHoursCalculator hoursCalculator = ninjectContainer.GetHoursCalculator();
 
-            Console.WriteLine(hoursCalculator.AddHoursToCurrentLocalTime(1));
+            Console.WriteLine(hoursCalculator.AddHoursToCurrentTime(1).ToLocalTime());
             Console.ReadLine();
         }
     }

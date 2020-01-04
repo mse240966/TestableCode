@@ -12,9 +12,9 @@ namespace TestableCode.Example
             _dateTimeHelper = dateTimeHelper;
         }
 
-        public DateTime AddHoursToCurrentLocalTime(int hours)
+        public DateTime AddHoursToCurrentTime(int hours)
         {
-            return _dateTimeHelper.UtcNow().AddHours(hours).ToLocalTime();
+            return _dateTimeHelper.UtcNow().AddHours(hours);
         }
     }
 }

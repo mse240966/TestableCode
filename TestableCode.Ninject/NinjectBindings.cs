@@ -8,7 +8,7 @@ namespace TestableCode.Ninject
     {
         public override void Load()
         {
-            Bind<IHoursCalculator>().To<HoursCalculatorBad>();
+            Bind<IHoursCalculator>().To<HoursCalculatorGood>();
             Bind<IDateTimeHelper>().To<DateTimeHelper>();
         }
     }

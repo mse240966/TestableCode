@@ -4,6 +4,6 @@ namespace TestableCode.Example
 {
     public interface IHoursCalculator
     {
-        DateTime AddHoursToCurrentLocalTime(int hours);
+        DateTime AddHoursToCurrentTime(int hours);
     }
 }
