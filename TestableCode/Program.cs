@@ -8,6 +8,8 @@ namespace TestableCode
     {
         public static void Main()
         {
+            Console.WriteLine("Hello World");
+
             var ninjectContainer = new NinjectContainer();
             ninjectContainer.Initialise();
 
